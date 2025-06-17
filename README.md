@@ -1,3 +1,5 @@
-# AGUANTE PEDRO GOMEZ Y LA BANDA DE LAS CUMBIAS DE GIRON LABK 
+# Bienvenido a mi repositorio de HTML en Campuslands
 
-## JAVIER MARTINEZ EL REY DE LAS CUMBIAS
+## Propósito
+
+En este repositorio serán almacenados las distintas actividades en su respectivo día de asignación.
