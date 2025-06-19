@@ -5,31 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de vida 😎</title>
     <link rel="stylesheet" href="styles/styles.css"> 
+    <script src="https://kit.fontawesome.com/5eb9a3ce33.js" crossorigin="anonymous"></script> <!--Agrego el link para insertar iconos-->
 </head>
 <body>
-<!--Primero divido por bloques la pagina usando <div> para posteriormente estilizar la pagina-->
+<!--Primero divido por bloques la pagina usando <div> para posteriormente estilizar la pagina en el css-->
     <h1>Hoja de Vida</h1>
     <div class="HojaDeVida">
-        <div>
-            <div class="none"> 
+        <div id="bloqueIzquierdo">
+            <div id="imagen"> 
                 <img src="img/hvpic.jpg" alt="Foto Daniel"> <!--Uso img para colocar la imagen de mi curriculum seguida de su direccion y descripcion-->
             </div>
     
             <div class="seccion" id="informacionPersonal"> <!--Divido por clase e id cada bloque para poder reutilizar los ajustes que aplique en ellos desde styles.css-->
                 <h2>Información Personal</h2>
-                <p><strong>Nombre:</strong> Daniel Santos Fajardo</p>
-                <p><strong>Dirección:</strong> Calle 68b #24a-03</p>
-                <p><strong>Email:</strong> santosdani03@hotmail.com</p>
-                <p><strong>GitHub:</strong><a href="https://github.com/Daniel-Santos-F333" target="_blank"> Daniel-Santos-F333</a></p>
-                <p><strong>LinkedIn:</strong><a href="https://www.linkedin.com/in/daniel-santos-fajardo-b077b9234/" target="_blank"> daniel-santos-fajardo</a></p>
-            </div>
-
-            <div class="seccion" id="Iconos">
-
+                <p><i class="fa-solid fa-user"></i> Daniel Santos Fajardo</p>
+                <p><i class="fa-solid fa-house"></i> Calle 68b #24a-03</p>
+                <p><i class="fa-solid fa-envelope"></i> santosdani03@hotmail.com</p>
+                <p><i class="fa-brands fa-github"></i> <a href="https://github.com/Daniel-Santos-F333" target="_blank"> Daniel-Santos-F333</a></p>
+                <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/daniel-santos-fajardo-b077b9234/" target="_blank"> daniel-santos-fajardo</a></p>
             </div>
         </div>
 
-        <div>
+        <div id="bloqueCentral"> <!--Aqui separe todo por grupos de div para luego formar las "columnas"-->
             <div class="seccion" id="informacionAcademica"> <!--Sigo con la separacion de cada bloque (Espero que me alcance el tiempo para decorar todo)-->
                 <h2>Información Academica</h2>
                 <p><strong>Basica Primaria</strong></p>
@@ -42,7 +39,7 @@
                 <p>Pseint - Python - GitHub - HTML</p>
             </div>
     
-            <div class="seccion" id="Habilidades">
+            <div class="seccion" id="Habilidades">          <!--Hice bloques de varios div para poder personalizar despues-->
                 <h2>Habilidades</h2>
                 <p><strong>Stack Tecnológico</strong></p>
                 <ul>
@@ -60,7 +57,7 @@
 
         </div>
 
-        <div>
+        <div class="seccion" id="bloqueDerecho">
             <div class="seccion" id="Proyectos">
                 <h2>Proyectos Personales</h2>
                 <p>Hoja de Vida - (HTML)</p>
@@ -68,16 +65,15 @@
                 <br> <!--br para hacer espaciado y que no quede todo junto-->
                 <h2>Proyectos Empresariales</h2>
                 <p>Guia de Menus Gastronomicos - (Control de Versiones en GitHub)</p>
-    
-    
-                <h2>Contactos</h2>
-                <p><strong>Nombre:</strong> Campuslands</p>
-                <p><strong>Email:</strong> contacto@campuslands.com</p>
-                <p><strong>Telefono:</strong> +57 300 9711559</p>
                 <br>
-                <p><strong>Nombre:</strong> Daniel Santos Fajardo</p>
-                <p><strong>Email:</strong> cuentaanormal1208@gmail.com</p>
-                <p><strong>Telefono:</strong> +57 316 2411551</p>
+                <h2>Contactos</h2>
+                <p><i class="fa-solid fa-user"></i> Campuslands</p>
+                <p><i class="fa-solid fa-envelope"></i> contacto@campuslands.com</p>
+                <p><i class="fa-solid fa-phone"></i> +57 300 9711559</p>
+                <br>
+                <p><i class="fa-solid fa-user"></i> Daniel Santos Fajardo</p>
+                <p><i class="fa-solid fa-envelope"></i> cuentaanormal1208@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +57 316 2411551</p>
             </div>
     
             

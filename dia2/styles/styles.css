@@ -1,30 +1,63 @@
-h1 {
-    display: flex;
+body {
+    background-image:url(bkgrd.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+h1 {
+    color: rgb(62, 145, 6);
+    display: flex;
     justify-content: center;
 }
 
 .HojaDeVida{
     display: flex;
-
     justify-content: center;
 }
 
 div{
-    border: 3px solid;
-    margin: 1rem;
+    border: 1px solid;
+    margin: 1px;
     padding: 1rem;
 }
 
-div .none{
+div #imagen{
     border: none;
     padding: 1rem;
-
+    background-color: white;
 }
 
 div img {
     width: 15rem; 
     height: 19rem;
     border-radius: 50%;
-    border: 3px solid;
+    border: 2px solid;
+    background-color: white;
+}
+
+div #bloqueDerecho{
+    background-color: white;
+}
+
+div #Proyectos {
+    background-color: aliceblue;
+}
+
+div #bloqueIzquierdo{
+    background-color: white;
+}
+div #informacionPersonal {
+    background-color: aliceblue;
+}
+div #bloqueCentral{
+    background-color: white;
+}
+
+div #informacionAcademica {
+    background-color: aliceblue;
+}
+
+div #Habilidades {
+    background-color: aliceblue;
 }
