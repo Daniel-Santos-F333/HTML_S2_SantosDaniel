@@ -1,10 +1,3 @@
-html{
-    box-sizing: border-box;
-}
-*, *::before, *::after{
-    box-sizing: border-box;
-}
-
 body{
    background-image: url(https://img.freepik.com/free-photo/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement_1217-2503.jpg?semt=ais_hybrid&w=740);
    background-repeat: no-repeat; background-size: cover;
