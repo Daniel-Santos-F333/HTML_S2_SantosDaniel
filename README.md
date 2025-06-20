@@ -18,7 +18,7 @@ Cada tarea está en su propia carpeta, nombrada con el día en que fue asignada.
 
 Leyenda de estados:
 * ✅ **Completado:** La tarea está terminada.
-* ⏳ **En Progreso:** Estoy trabajando actualmente en ella.
+* 🚧 **En Progreso:** Estoy trabajando actualmente en ella.
 * 📝 **Asignado:** La tarea está pendiente por iniciar.
 
 ---
@@ -49,7 +49,7 @@ Leyenda de estados:
 ### **Día 4**
 
 * **Tarea:** Investigación CSS
-* **Estado:** 📝 Asignado
+* **Estado:** 🚧 En Progreso
 * **Ver Tarea:** [`Dia4`](/dia4)
 
 ## 🛠️ Tecnologías Utilizadas
