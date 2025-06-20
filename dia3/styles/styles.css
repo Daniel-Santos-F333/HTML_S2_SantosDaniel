@@ -7,14 +7,16 @@ body{
 h1{
     display: flex; justify-content: center; /*aqui centre el h1*/
     color: #000000; /*le habia puesto un border a un h1 XD*/
+    background-color: rgba(255, 255, 255, 0.699); margin: 0 auto; width: 30rem;
+    padding-bottom: 20px;
 }
 
 .Formulario{                                             /*en esta clase arregle el recuadro que contiene el formulario para que se viera mas bonito*/
     background-color: rgba(255, 255, 255, 0.699); backdrop-filter: blur(8px);
     display: flex;
     justify-content: center;
-    margin: 0 auto; width: 26rem; /*Le puse un color de fondo blanco tirando a transparente y luego le aplique un filtro de blur para que se viera lindo*/
-                                     /*sigo sin entender muy bien lo del rem y los pixeles pero con rem si me funciona la pagina como responsive*/
+    margin: 0 auto; width: 30rem; /*Le puse un color de fondo blanco tirando a transparente y luego le aplique un filtro de blur para que se viera lindo*/
+                                    /*sigo sin entender muy bien lo del rem y los pixeles pero con rem si me funciona la pagina como responsive*/
     
 }
 

@@ -20,14 +20,15 @@
             <label for="subname"><strong>Apellidos: </strong></label> 
             <input type="text" placeholder="Ingresa tus apellidos" maxlength="50" required/> <!--Agrego el required para que ningun usuario envie el formulario sin responder-->
         <br>
-        
+        <br>
         <div>
-            <p><strong>Seleccione su sexo:</strong> </p>
-            <input type="radio" id="masculino" name="genero" value="masculino">
-            <label for="masculino">Hombre</label>
+            <label><strong>Seleccione su sexo:</strong></label>
+            <select>
+                <option value="" disabled selected>...</option>
+                <option value="Masculino">Hombre</option>
+                <option value="Femenino">Mujer</option>
+            </select>
 
-            <input type="radio" id="Femenino" name="genero" value="Femenino">
-            <label for="Femenino">Mujer</label>
         </div>
         <br>
             <label for="email"><strong>Correo: </strong></label>
