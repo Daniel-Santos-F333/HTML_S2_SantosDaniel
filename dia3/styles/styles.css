@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(https://img.freepik.com/free-photo/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement_1217-2503.jpg?semt=ais_hybrid&w=740);
+   background-repeat: no-repeat; background-size: cover;
+   background-position: center; background-attachment: fixed;
+}
+
+h1{
+    display: flex; justify-content: center;
+    color: #000000; border: 5rem;
+}
+
+.Formulario{
+    background-color: rgba(255, 255, 255, 0.699); backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; width: 26rem;
+    
+}
+
+fieldset{
+    margin: 0%; width: 64%; 
+}
