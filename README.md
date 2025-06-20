@@ -27,7 +27,7 @@ Leyenda de estados:
 
 * **Tarea:** Introducción a HTML
 * **Estado:** ✅ Completado
-* **Ver Tarea:** [`Dia1`](/dia1/index.html)
+* **Ver Tarea:** [`Dia1`](/dia1)
 
 ---
 
@@ -35,7 +35,7 @@ Leyenda de estados:
 
 * **Tarea:** HTML - Hipervinculos
 * **Estado:** ✅ Completado
-* **Ver Tarea:** [`Dia2`](/dia2/index.html)
+* **Ver Tarea:** [`Dia2`](/dia2)
 
 ---
 
@@ -43,7 +43,14 @@ Leyenda de estados:
 
 * **Tarea:** Formularios
 * **Estado:** ✅ Completado
-* **Ver Tarea:** [`Dia3`](/dia3/index.html)
+* **Ver Tarea:** [`Dia3`](/dia3)
+
+---
+### **Día 4**
+
+* **Tarea:** Investigación CSS
+* **Estado:** 📝 Asignado
+* **Ver Tarea:** [`Dia4`](/dia4)
 
 ## 🛠️ Tecnologías Utilizadas
 
