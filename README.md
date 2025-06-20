@@ -1,6 +1,8 @@
 # SKILL HTML S2 CAMPUSLANDS
 
-👋 Bienvenido a mi repositorio. Aquí documento y almaceno las actividades y proyectos del skill **HTML** y **CSS**.
+**Bienvenido a mi repositorio**. 👋
+
+Aquí documento y almaceno las actividades y proyectos del skill **HTML** y **CSS**.
 El objetivo de este espacio es mostrar mi progreso, tener un registro ordenado de mis trabajos y facilitar su revisión.
 
 
@@ -40,7 +42,7 @@ Leyenda de estados:
 ### **Día 3**
 
 * **Tarea:** Formularios
-* **Estado:** ⏳ En Progreso
+* **Estado:** ✅ Completado
 * **Ver Tarea:** [`Dia3`](/dia3/index.html)
 
 ## 🛠️ Tecnologías Utilizadas
@@ -55,7 +57,8 @@ Las herramientas principales que estoy utilizando para estas tareas son:
 
 1.  **Navega** al índice de tareas de arriba.
 2.  **Haz clic** en el enlace de la carpeta de la tarea que desees revisar.
-3.  Dentro de la carpeta, puedes ver los archivos `.html`, `.css`, etc. Para visualizar el resultado final, simplemente dirigete a los links de la parte inferior y serás redirigido a los trabajos.
+3.  Dentro de la carpeta, puedes ver los archivos `.html`, `.css`, etc. 
+4. Para visualizar el resultado final, simplemente dirigete a los links de la parte inferior y serás redirigido a los trabajos.
 
 ## 👤 Contacto
 **LinkedIn**
@@ -75,3 +78,8 @@ https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia1/
 **Actividad del Dia 2:**
 
 https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia2/
+
+---
+**Actividad del Dia 3:**
+
+https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia3/
