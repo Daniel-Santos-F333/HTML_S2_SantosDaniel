@@ -2,13 +2,8 @@
 body{
     font-family: 'Amazon Ember'; 
     font-weight: bold; color: #ffffff; text-align: center;
-    background-image: url(img/Path1.svg); background-size: cover; background-repeat: no-repeat;
-    
-}
-
-.fondo1 {
-    background-image: url(img/FondoTwitch.png);
-    background-size: 1920px 1080px; background-repeat: no-repeat; background-position: center top;
+    background-image: url(img/FondoTwitch.png); background-size: cover; background-repeat: no-repeat;
+    background-color: #000000
 }
 
 header{
@@ -21,13 +16,13 @@ header{
 .login {
     font-family: 'Amazon Ember delgada';
     position: absolute; top: 10px; right: 10px;
-    color: #000000; padding: 10px 60px; border-radius: 20px; display: flex;
+    color: #000000; padding: 15px 70px; border-radius: 20px; display: flex;
     align-items: center; justify-content: center; cursor: pointer; transition: ease;
     text-decoration: none; background-color: #ffffff; 
 }
 
 .login:hover {
-    background-color: #ffffff;
+    background-color: lightgray; scale: 1.1;
 }
 
 .mainpage{
@@ -46,9 +41,16 @@ p{
 
 .signup{
     font-family: 'Amazon Ember delgada', sans-serif; background-color: #ffffff;
-    color: #000000; padding: 25px 60px; border-radius: 50px; font-size: 2.5rem;
+    color: #000000; padding: 25px 40px; border-radius: 50px; font-size: 2.5rem;
     text-decoration: none;
 }
+.secondpart{
+    padding: 10px 20px; background-color: #08ace4;
+}
+.secondh1 {
+    font-family: "Amazon Ember gorda", sans-serif
+}
+
 @font-face {
     font-family: 'Amazon Ember gorda';
     src: url(../fonts/AmazonEmber_Bd.ttf) format('truetype');
