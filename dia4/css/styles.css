@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Amazon Ember', sans-serif; 
+    font-family: 'Amazon Ember'; 
     font-weight: bold; color: #ffffff; text-align: center;
     background-image: url(img/Path1.svg); background-size: cover; background-repeat: no-repeat;
     
@@ -8,14 +8,53 @@ body{
 
 .fondo1 {
     background-image: url(img/FondoTwitch.png);
-    background-size: 1920px 1080px; background-repeat: no-repeat; background-position: center; margin-top: 0.5%;
+    background-size: 1920px 1080px; background-repeat: no-repeat; background-position: center top;
 }
 
+header{
+    position: relative; width: 100%;}
+
 #lupa {
-    
+    position: absolute; top: 10px; left: 10px;
+}
+
+.login {
+    font-family: 'Amazon Ember delgada';
+    position: absolute; top: 10px; right: 10px;
+    color: #000000; padding: 10px 60px; border-radius: 20px; display: flex;
+    align-items: center; justify-content: center; cursor: pointer; transition: ease;
+    text-decoration: none; background-color: #ffffff; 
+}
+
+.login:hover {
+    background-color: #ffffff;
+}
+
+.mainpage{
+    font-family: 'Amazon Ember gorda', sans-serif; margin-top: 0%; font-size: 3.6rem;
+    margin-bottom: 8px;
+}
+
+.prime{
+    margin-bottom: -30px; 
+}
+
+p{
+    font-family: 'Amazon Ember delgada', sans-serif; font-size: 1.9rem; margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+.signup{
+    font-family: 'Amazon Ember delgada', sans-serif; background-color: #ffffff;
+    color: #000000; padding: 25px 60px; border-radius: 50px; font-size: 2.5rem;
+    text-decoration: none;
 }
 @font-face {
-    font-family: 'Amazon Ember';
-    src: url(../fonts/AmazonEmber_Bd.ttf) format('truetype'),
-        url(../fonts/AmazonEmber_Lt.ttf) format('truetype');
+    font-family: 'Amazon Ember gorda';
+    src: url(../fonts/AmazonEmber_Bd.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Amazon Ember delgada';
+    src: url(../fonts/AmazonEmber_Th.ttf) format('truetype');
 }
