@@ -1,8 +1,21 @@
 
 body{
-    background-color: black;
-    background-image: url(img/FondoTwitch.png);
-    background-size: cover; background-repeat: no-repeat;
-
+    font-family: 'Amazon Ember', sans-serif; 
+    font-weight: bold; color: #ffffff; text-align: center;
+    background-image: url(img/Path1.svg); background-size: cover; background-repeat: no-repeat;
+    
 }
 
+.fondo1 {
+    background-image: url(img/FondoTwitch.png);
+    background-size: 1920px 1080px; background-repeat: no-repeat; background-position: center; margin-top: 0.5%;
+}
+
+#lupa {
+    
+}
+@font-face {
+    font-family: 'Amazon Ember';
+    src: url(../fonts/AmazonEmber_Bd.ttf) format('truetype'),
+        url(../fonts/AmazonEmber_Lt.ttf) format('truetype');
+}
