@@ -52,6 +52,13 @@ Leyenda de estados:
 * **Estado:** 🚧 En Progreso
 * **Ver Tarea:** [`Dia4`](/dia4)
 
+---
+### **Día 5**
+
+* **Tarea:** HTML - CSS
+* **Estado:** 🚧 En Progreso
+* **Ver Tarea:** [`Dia5`](/dia5)
+
 ## 🛠️ Tecnologías Utilizadas
 
 Las herramientas principales que estoy utilizando para estas tareas son:
