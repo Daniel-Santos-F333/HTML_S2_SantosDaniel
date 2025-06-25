@@ -1,5 +1,5 @@
 body{
-    background-image: url(img/Path1.svg); margin: 0%; padding: 0%;
+    background-color: #000000; margin: 0%; padding: 0%;
 }
 
 .mainPage{
@@ -43,13 +43,10 @@ body{
     text-decoration: none; font-weight: bold;
 }
 
-.globe1{
-    justify-content: center;align-items: center; text-align: center; color: #ffffff;
-}
-
 .rectangulo1{
-    background-color: #00A8E1; border-radius: 1%;
-    max-width: auto; margin-left: auto; margin-right: auto; box-sizing: border-box;
+
+    background-color: #00A8E1; border-radius:35px;
+    max-width: 90%; margin-left: auto; margin-right: auto; box-sizing: border-box;
     text-align: center;
 }
 
@@ -65,20 +62,8 @@ body{
     justify-content: center;align-items: center; text-align: center; color: #ffffff;
 }
 
-.rectangulo2{
-    background-color: #00A8E1; border-radius: 1%;
-    max-width: auto; margin-left: auto; margin-right: auto; box-sizing: border-box;
-    text-align: center;
-}
-
 .globe3{
     justify-content: center;align-items: center; text-align: center; color: #ffffff;
-}
-
-.rectangulo3{
-    background-color: #00A8E1; border-radius: 1%;
-    max-width: auto; margin-left: auto; margin-right: auto; box-sizing: border-box;
-    text-align: center;
 }
 
 .finalPart{
