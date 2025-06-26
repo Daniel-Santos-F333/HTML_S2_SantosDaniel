@@ -104,7 +104,7 @@ https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia3/
 https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia4/
 
 ---
-**Actividad del Dia 4:**
+**Actividad del Dia 5:**
 
 https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia5/
 
