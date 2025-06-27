@@ -1,0 +1,23 @@
+div {
+    background-color: rgb(238, 102, 102);
+}
+div h1 {
+    color: rgb(215, 192, 48);
+}
+div h1#hola {
+    color: rgb(216, 137, 218);
+}
+button {
+    background-color: lightpink;
+}
+button[disabled] {
+    background-color: rgb(62, 211, 214);
+    color: white;
+}
+
+input[type="password"] {
+    background-color: #7fffd4;
+}
+input[type="text"] {
+    background-color: #7fffd4;
+}
