@@ -1,6 +1,6 @@
 # SKILL HTML S2 CAMPUSLANDS
 
-**Bienvenido a mi repositorio**. 👋
+**Bienvenido a mi repositorio**. 
 
 Aquí documento y almaceno las actividades y proyectos del skill **HTML** y **CSS**.
 El objetivo de este espacio es mostrar mi progreso, tener un registro ordenado de mis trabajos y facilitar su revisión.
@@ -8,7 +8,7 @@ El objetivo de este espacio es mostrar mi progreso, tener un registro ordenado d
 
 #### **Estudiante:** Daniel Santos Fajardo
 #### **Curso/Skill:** S2/HTML + CSS
-**Institución:** Campuslands
+#### **Institución:** Campuslands
 
 ---
 
@@ -27,7 +27,7 @@ Leyenda de estados:
 
 * **Tarea:** Introducción a HTML
 * **Estado:** ✅ Completado
-* **Ver Tarea:** [`Dia1`](/dia1)
+* **Ver Tarea:** [`Dia1`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia1/)
 
 ---
 
@@ -35,7 +35,7 @@ Leyenda de estados:
 
 * **Tarea:** HTML - Hipervinculos
 * **Estado:** ✅ Completado
-* **Ver Tarea:** [`Dia2`](/dia2)
+* **Ver Tarea:** [`Dia2`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia2/)
 
 ---
 
@@ -43,22 +43,30 @@ Leyenda de estados:
 
 * **Tarea:** Formularios
 * **Estado:** ✅ Completado
-* **Ver Tarea:** [`Dia3`](/dia3)
+* **Ver Tarea:** [`Dia3`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia3/)
 
 ---
 ### **Día 4**
 
 * **Tarea:** Investigación CSS
 * **Estado:** 🚧 En Progreso
-* **Ver Tarea:** [`Dia4`](/dia4)
+* **Ver Tarea:** [`Dia4`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia4/)
 
 ---
 ### **Día 5**
 
 * **Tarea:** HTML - CSS
 * **Estado:** 🚧 En Progreso
-* **Ver Tarea:** [`Dia5`](/dia5)
+* **Ver Tarea:** [`Dia5`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia5/)
 
+---
+### **Día 7**
+
+* **Tarea:** HTML - Contenidos
+* **Estado:** 🚧 En Progreso
+* **Ver Tarea:** [`Dia7`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia7/)
+
+---
 ## 🛠️ Tecnologías Utilizadas
 
 Las herramientas principales que estoy utilizando para estas tareas son:
@@ -82,30 +90,3 @@ Las herramientas principales que estoy utilizando para estas tareas son:
 **Email**
 
 <svg width="20" height="20" style="vertical-align:middle;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg> cuentaanormal1208@gmail.com
-## 🔗Links 
-
-**Actividad del Dia 1:**
-
-https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia1/
-
----
-**Actividad del Dia 2:**
-
-https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia2/
-
----
-**Actividad del Dia 3:**
-
-https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia3/
-
----
-**Actividad del Dia 4:**
-
-https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia4/
-
----
-**Actividad del Dia 5:**
-
-https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia5/
-
----
