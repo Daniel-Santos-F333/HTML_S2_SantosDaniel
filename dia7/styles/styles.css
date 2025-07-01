@@ -1,2 +1,32 @@
 body{
+    background-color: #111111; color: #ffffff; margin: 0; padding: 0
+}
+
+.superior{
+    text-decoration: none; color: #ffffff;
+}
+
+.mas{
+    text-decoration: none; color: #ffffff;
+}
+
+header{
+    background-color: #111111; width: 94.5vw;
+    top: 0; position: fixed;
+    padding: 15px 20px;
+    z-index: 1000;
+    justify-content: space-between; display: flex; align-items: center; padding: 10px 40px;
+}
+
+.logoCafe{
+    margin: 0; padding: 0;
+    width: 7vh; height: auto;
+}
+
+.mainPage{
+    background-image: url(./Images/pexels-nao-triponez-129207.jpg); background-position: center; background-size: cover; min-height: 100vh;
+}
+
+.cafesin{
+    width: 36vh;
 }
