@@ -1,5 +1,7 @@
 body{
-    background-color: #111111; color: #ffffff; margin: 0; padding: 0
+    background-color: #111111; color: #ffffff; 
+    margin: 0; 
+    padding: 0;
 }
 
 .superior{
@@ -11,28 +13,45 @@ body{
 }
 
 header{
-    background-color: #111111; width: 99vw;
-    top: 0; position: fixed;
+    background-color: ;
+    width: 99vw;
+    top: 0; 
+    position: fixed;
     z-index: 1000;
-    justify-content: space-between; display: flex; align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 
 .hipervinculos{
-    justify-content: space-between; width: 30vw; display: flex; padding-right: 10vw;
+    justify-content: space-between;
+    width: 30vw;
+    display: flex;
+    padding-right: 10vw;
 }
 
 .logoCafe{
-    margin: 0; padding: 0; padding-left: 2vw;
-    width: 7vh; height: auto;
+    margin: 0; 
+    padding: 0; 
+    padding-left: 2vw;
+    width: 7vh; 
+    height: auto;
 }
 
 .mainPage{
-    background-image: url(./Images/pexels-nao-triponez-129207.jpg); background-position: center; background-size: cover; min-height: 100vh;
-    margin: 0; padding:  0; height: 100vh;
+    background-image: url(./Images/pexels-nao-triponez-129207.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    min-height: 100vh;
+    margin: 0; 
+    padding:  0; 
+    height: 100vh;
 }
 
 .text1{
-    position: center center;
+    position: center;
+    font-family: 'Times New Roman', Times, serif; color: #ffffff; font-size: 600%;  
+    padding-left: 40%;
 }
 
 .cafeCagao{
