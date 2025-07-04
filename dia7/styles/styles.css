@@ -5,15 +5,23 @@ body{
 }
 
 .superior{
-    text-decoration: none; color: #ffffff;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.superior :hover {
+    text-decoration: underline #e69d3e;
+    text-underline-position: below;
 }
 
 .mas{
-    text-decoration: none; color: #ffffff;
+    text-decoration: none;
+    background-color: #e69d3e;
+    color: black;
 }
 
 header{
-    background-color: ;
+    background-color: #111111;
     width: 99vw;
     top: 0; 
     position: fixed;
@@ -21,6 +29,8 @@ header{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .hipervinculos{
@@ -40,35 +50,50 @@ header{
 
 .mainPage{
     background-image: url(./Images/pexels-nao-triponez-129207.jpg); 
-    background-position: center; 
-    background-size: cover; 
-    min-height: 100vh;
+    background-position: center center; 
+    background-size: cover;
+    background-repeat: no-repeat;
     margin: 0; 
     padding:  0; 
     height: 100vh;
+    align-items: center;
+    align-content: center;
 }
 
 .text1{
-    position: center;
+    position: center center;
     font-family: 'Times New Roman', Times, serif; color: #ffffff; font-size: 600%;  
-    padding-left: 40%;
+    padding-left: 29%;
+    padding-top: 10vh;
 }
 
-.cafeCagao{
+.text2{
+    position: center center;
+    font-family: 'Times New Roman', Times, serif; color: #ffffff; font-size: 600%;
+    padding-left: 27%;
+    padding-top: 53vh;
+}
+
+.comprar{
+    text-decoration: none;
+    background-color: #e69d3e;
+    color: black;
+}
+.cafe1{
     height: 25vw;
 }
-.cafesin{
+.cafe2{
     width: 20vw;
 }
 
-.cafeChoto{
+.cafesito1{
     width: 6vw;
 }
 
-.cafeChoton{
+.cafesito2{
     width: 6vw;
 }
 
-.cafeNigga{
+.cafesito3{
     width: 6vw;
 }
