@@ -14,7 +14,7 @@ body{
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: 40px;
+    border-radius: 1vw;
     padding: 1.5%;
     column-gap: 1rem;
     row-gap: 1rem;
@@ -22,7 +22,7 @@ body{
 
 img{
     display: block;
-    border-radius: 40px;
+    border-radius: 1vw;
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -41,7 +41,7 @@ img{
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-radius: 40px;
+    border-radius: 1vw;
     padding: 2.5%;
     column-gap: 1rem;
     row-gap: 1rem;
