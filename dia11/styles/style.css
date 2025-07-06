@@ -1,7 +1,14 @@
 body{
     background-color: #18141c;
     margin: 20vw;
-    margin-top: 15vh;
+    margin-top: 5vh;
+}
+
+h1{
+    color: #bec2c9;
+    font-family:Helvetica, sans-serif;
+    font-size: 4rem;
+    justify-content: center;
 }
 
 .father{
