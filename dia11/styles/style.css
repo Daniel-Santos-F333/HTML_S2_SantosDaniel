@@ -1,10 +1,36 @@
 body{
+    background-color: #18141c;
     margin: 20vw;
-    margin-top: 3vh;
+    margin-top: 15vh;
 }
 
 .father{
     background-color:#141810;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.a3-4{
+    grid-column: 3 / span 4
+}
+
+.b1-c1{
+    grid-column: 1 ;
+    grid-row: 2 / span 3
+}
+
+.b2-3{
+    grid-column: 2 / span 4
+}
+
+.c2-3{
+    grid-column: 2 / span 4;
 }
