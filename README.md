@@ -74,6 +74,13 @@ Leyenda de estados:
 * **Ver Tarea:** [`Dia9`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia9/)
 
 ---
+### **Día 11**
+
+* **Tarea:** HTML - GRID
+* **Estado:** 🚧 En Progreso
+* **Ver Tarea:** [`Dia11`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia11/)
+
+---
 ## 🛠️ Tecnologías Utilizadas
 
 Las herramientas principales que estoy utilizando para estas tareas son:
