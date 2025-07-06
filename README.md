@@ -77,7 +77,7 @@ Leyenda de estados:
 ### **Día 11**
 
 * **Tarea:** HTML - GRID
-* **Estado:** 🚧 En Progreso
+* **Estado:** ✅ Completado
 * **Ver Tarea:** [`Dia11`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia11/)
 
 ---
