@@ -1,0 +1,10 @@
+body{
+    margin: 20vw;
+    margin-top: 3vh;
+}
+
+.father{
+    background-color:#141810;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
