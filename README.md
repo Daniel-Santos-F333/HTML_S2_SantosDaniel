@@ -49,7 +49,7 @@ Leyenda de estados:
 ### **Día 4**
 
 * **Tarea:** Investigación CSS
-* **Estado:** 🚧 En Progreso
+* **Estado:** ✅ Completado
 * **Ver Tarea:** [`Dia4`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia4/)
 
 ---
