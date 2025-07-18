@@ -81,6 +81,13 @@ Leyenda de estados:
 * **Ver Tarea:** [`Dia11`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia11/)
 
 ---
+### **Día 13**
+
+* **Tarea:** Animaciones
+* **Estado:** 🚧 En Progreso
+* **Ver Tarea:** [`Dia13`](https://daniel-santos-f333.github.io/HTML_S2_SantosDaniel/dia13/)
+
+---
 ## 🛠️ Tecnologías Utilizadas
 
 Las herramientas principales que estoy utilizando para estas tareas son:
