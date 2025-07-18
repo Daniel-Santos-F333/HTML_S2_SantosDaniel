@@ -1,25 +1,32 @@
-body{
-   background-image: url(https://img.freepik.com/free-photo/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement_1217-2503.jpg?semt=ais_hybrid&w=740);
-   background-repeat: no-repeat; background-size: cover;
-   background-position: center; background-attachment: fixed;  /*Aqui me puse a jugar con el fondo para que se viera bonito*/
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement_1217-2503.jpg?semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /*Aqui me puse a jugar con el fondo para que se viera bonito*/
 }
 
-h1{
-    display: flex; justify-content: center; /*aqui centre el h1*/
-    color: #000000; /*le habia puesto un border a un h1 XD*/
-    background-color: rgba(255, 255, 255, 0.699); margin: 0 auto; width: 30rem;
+h1 {
+    display: flex;
+    justify-content: center;
+    /*aqui centre el h1*/
+    color: #000000;
+    /*le habia puesto un border a un h1 XD*/
+    background-color: rgba(255, 255, 255, 0.699);
+    margin: 10vh auto;
+    width: 30rem;
     padding-bottom: 20px;
 }
 
-.Formulario{                                             /*en esta clase arregle el recuadro que contiene el formulario para que se viera mas bonito*/
-    background-color: rgba(255, 255, 255, 0.699); backdrop-filter: blur(8px);
+.Formulario {
+    /*en esta clase arregle el recuadro que contiene el formulario para que se viera mas bonito*/
+    background-color: rgba(255, 255, 255, 0.699);
+    backdrop-filter: blur(8px);
     display: flex;
-    justify-content: center;
-    margin: 0 auto; width: 30rem; /*Le puse un color de fondo blanco tirando a transparente y luego le aplique un filtro de blur para que se viera lindo*/
-                                    /*sigo sin entender muy bien lo del rem y los pixeles pero con rem si me funciona la pagina como responsive*/
-    
-}
-
-fieldset{
-    margin: 0%; width: 64%; /*Aqui acomode el espacio que ocupaba el borde/barrera del formulario*/
+    margin: auto;
+    width: 30rem;
+    /*Le puse un color de fondo blanco tirando a transparente y luego le aplique un filtro de blur para que se viera lindo*/
+    /*sigo sin entender muy bien lo del rem y los pixeles pero con rem si me funciona la pagina como responsive*/
 }

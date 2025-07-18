@@ -1,66 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de registro - Mi web <!--Se cumple con el requisito de cambiar el nombre al titulo segun la actividad del classroom-->
+    <title>Formulario de registro - Mi web
+        <!--Se cumple con el requisito de cambiar el nombre al titulo segun la actividad del classroom-->
     </title>
     <link rel="stylesheet" href="styles/styles.css"> <!--linkeo el css-->
 </head>
+
 <body>
     <h1>FORMULARIO DE REGISTRO </h1>
     <div class="Formulario">
-    <fieldset>                 <!--Fieldset porque el del video de youtube lo uso y se veia bonito-->
-        
-        <form action="" method="post"> 
+        <form action="" method="post">
             <label for="name"><strong>Nombre: </strong></label>
-            <input type="text" placeholder="Ingresa tu nombre" maxlength="50" required/> <!--Le agrego el maxlength para establecer un limite de caracteres para ingresar al input-->
-        <br>
-        <br>
-            <label for="subname"><strong>Apellidos: </strong></label> 
-            <input type="text" placeholder="Ingresa tus apellidos" maxlength="50" required/> <!--Agrego el required para que ningun usuario envie el formulario sin responder-->
-        <br>
-        <br>
-        <div>
-            <label><strong>Seleccione su sexo:</strong></label>
-            <select>
-                <option value="" disabled selected>...</option>
-                <option value="Masculino">Hombre</option>
-                <option value="Femenino">Mujer</option>
-            </select>
-
-        </div>
-        <br>
+            <input type="text" placeholder="Ingresa tu nombre" maxlength="50" required />
+            <!--Le agrego el maxlength para establecer un limite de caracteres para ingresar al input-->
+            <br>
+            <br>
+            <label for="subname"><strong>Apellidos: </strong></label>
+            <input type="text" placeholder="Ingresa tus apellidos" maxlength="50" required />
+            <!--Agrego el required para que ningun usuario envie el formulario sin responder-->
+            <br>
+            <br>
+            <div>
+                <label><strong>Seleccione su sexo:</strong></label>
+                <select>
+                    <option value="" disabled selected>...</option>
+                    <option value="Masculino">Hombre</option>
+                    <option value="Femenino">Mujer</option>
+                </select>
+            </div>
+            <br>
             <label for="email"><strong>Correo: </strong></label>
-            <input type="email" id="email" pattern="+@example.com" size="23" required placeholder="example@gmail.com"/> <!--Agrego pattern apra que el input siga un orden y no permita poner otra cosa que no sea un correo-->
-        <br>
-        <br>
-        <div class="seleccionCiudad">
-            <label for="Poblacion"><strong>Ciudad:</strong></label>
-            <select name="Poblacion" required>                <!--Uso select aqui para que el usuario pueda escoger una de las varias opciones que le corresponda-->
-                <option value="" disabled selected>...</option> <!--A su vez añadi una opcion meramente estetica con disabled y selected-->
-                <option value="Bucaramanga">Bucaramanga</option>
-                <option value="Floridablanca">Floridablanca</option>
-                <option value="Giron">Giron</option>
-                <option value="Piedecuesta">Piedecuesta</option>
-            </select>
-        </div>
-        <br>
-        <input type="checkbox" checked/> Deseo recibir información sobre novedades y ofertas. <!--Para las casillas de marcar use el tipo de input checkbox-->
-        <br>                                                                                     <!--Esta en especifico debia estar previamente marcada, se realizo con checked-->
-        <br>
-        <input type="checkbox" required/> Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.
-        <br>
-        <br>
-        <label type="text" for="descripcion">Descripcion (opcional):</label><br>
-        <textarea id="descripcion" cols="50" rows="5"></textarea> <!--Para insertar el cuadro de texto utilice textarea poniendo 5 renglones y 50 espacios de anchura-->
-        <br>
-        <br>
-        <button>Enviar</button> <!--El boton de enviar que era otro requisito de la tarea-->
-        <input type="reset"> <!--Agregue un boton de reset ya que el formulario no se puede enviar a ningun lado entonces el reset es pa limpiarlo despues de volver a la pagina con el error xd-->
-
-    </form> <!--cierro el form y ya-->
-    </fieldset>
-    </div> 
+            <input type="email" id="email" pattern="+@example.com" size="23" required placeholder="example@gmail.com" />
+            <!--Agrego pattern apra que el input siga un orden y no permita poner otra cosa que no sea un correo-->
+            <br>
+            <br>
+            <div class="seleccionCiudad">
+                <label for="Poblacion"><strong>Ciudad:</strong></label>
+                <select name="Poblacion" required>
+                    <!--Uso select aqui para que el usuario pueda escoger una de las varias opciones que le corresponda-->
+                    <option value="" disabled selected>...</option>
+                    <!--A su vez añadi una opcion meramente estetica con disabled y selected-->
+                    <option value="Bucaramanga">Bucaramanga</option>
+                    <option value="Floridablanca">Floridablanca</option>
+                    <option value="Giron">Giron</option>
+                    <option value="Piedecuesta">Piedecuesta</option>
+                </select>
+            </div>
+            <br>
+            <input type="checkbox" checked /> Deseo recibir información sobre novedades y ofertas.
+            <!--Para las casillas de marcar use el tipo de input checkbox-->
+            <br> <!--Esta en especifico debia estar previamente marcada, se realizo con checked-->
+            <br>
+            <input type="checkbox" required /> Declaro haber leído y aceptar las condiciones generales del programa y la
+            normativa sobre protección de datos.
+            <br>
+            <br>
+            <label type="text" for="descripcion">Descripcion (opcional):</label><br>
+            <textarea id="descripcion" cols="50" rows="5"></textarea>
+            <!--Para insertar el cuadro de texto utilice textarea poniendo 5 renglones y 50 espacios de anchura-->
+            <br>
+            <br>
+            <button>Enviar</button> <!--El boton de enviar que era otro requisito de la tarea-->
+            <input type="reset">
+            <!--Agregue un boton de reset ya que el formulario no se puede enviar a ningun lado entonces el reset es pa limpiarlo despues de volver a la pagina con el error xd-->
+        </form> <!--cierro el form y ya-->
+    </div>
 </body>
+
 </html>
