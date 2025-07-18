@@ -110,12 +110,55 @@ body {
     font-weight: bolder;
 }
 
+.imagenes img{
+    width: 10vw;
+}
+
 .textFinal h1{
     font-family: "Amazon Ember delgada";
     color: #ffffff;
     font-size: 6vw;
     margin-top: 4vw;
 }
+
+.textFinal p{
+    font-family: "Amazon Ember delgada";
+    color: #ffffff;
+    font-size: 2.5vw;
+}
+
+.flechas{
+    width: 1vw;
+}
+
+.left{
+    width: 20vw;
+}
+
+.mid{
+    width: 40vw;
+}
+
+.right{
+    width: 20vw;
+}
+
+.imgsFinal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.phone{
+    text-align: right;
+}
+
+.izq {
+    text-align: right;
+}
+
 .finalPart {
     justify-content: center;
     align-items: center;
