@@ -172,16 +172,44 @@ header{
     font-family: sans-serif;
 }
 
+.products h1{
+    text-align: left;
+    padding-left: 5vw;
+    font-size: 3vw;
+}
+
 .productos{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
+
+.primerBloque{
+    padding-bottom: 2vw;
+    border: 0.2vw solid;
+    border-color: #e69d3e;
+}
+
 .cafesito1{
     width: 6vw;
 }
 
+.segundoBloque{
+    padding-bottom: 2vw;
+    border: 0.2vw solid;
+    border-color: #e69d3e;
+}
+
 .cafesito2{
     width: 6vw;
+}
+
+.tercerBloque{
+    padding-bottom: 2vw;
+    border: 0.2vw solid;
+    border-color: #e69d3e;
 }
 
 .cafesito3{
