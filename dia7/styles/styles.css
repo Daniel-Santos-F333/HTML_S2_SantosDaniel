@@ -39,7 +39,7 @@ header{
     width: 30vw;
     display: flex;
     padding-right: 10vw;
-    font-size: 2rem;
+    font-size: 1.3vw;
     font-family: sans-serif;
 }
 
@@ -47,7 +47,7 @@ header{
     margin: 0; 
     padding: 0; 
     padding-left: 2vw;
-    width: 7vw; 
+    width: 5vw; 
     height: auto;
 }
 
@@ -73,6 +73,7 @@ header{
     position: center center;
     font-family: 'Times New Roman', Times, serif; color: #ffffff; font-size: 600%;
     margin-top:60vh;
+    margin-bottom: 0;
 }
 
 .comprar{
@@ -109,6 +110,7 @@ header{
     flex-direction: row;
     column-gap: 5%;
     margin-left: 12%;
+    margin-bottom: 20vh;
 }
 
 .texto1 {
@@ -123,12 +125,12 @@ header{
 }
 
 .texto1 h1 {
-    font-size: 8rem;
+    font-size: 5vw;
 }
 .texto1 p {
-    padding-left: 10rem;
+    padding-left: 5vw;
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.5vw;
     margin-top: -3rem;
 }
 
@@ -142,15 +144,20 @@ header{
 .segundaSection{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    column-gap: 10vw;
 }
 
 .cafe1{
     height: 25vw;
 }
 .cafe2{
-    width: 20vw;
+    width: 25vw;
 }
 
+.texto2{
+    text-align: left;
+}
 .cafesito1{
     width: 6vw;
 }
